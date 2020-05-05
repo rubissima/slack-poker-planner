@@ -91,8 +91,7 @@ function createFromPPCommand(ppCommand) {
 async function init(topic, team) {
     topic.points = [
         '0', '1/2', '1', '2', '3',
-        '5', '8', '13', '20', '40',
-        '100', '∞', '?'
+        '5', '8', '13', '21'
     ];
     if (team.custom_points) {
         topic.points = team.custom_points.split(' ');
